@@ -1,0 +1,11 @@
+{
+  "name": "watermarks-kit",
+  "owner": { "name": "du8309-ai" },
+  "plugins": [
+    {
+      "name": "watermarks-kit",
+      "source": "./",
+      "description": "Report-only provenance check on written files, plus remove-ai-marks and clean-user-facing-text skills."
+    }
+  ]
+}

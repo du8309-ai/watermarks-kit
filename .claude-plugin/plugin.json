@@ -1,0 +1,6 @@
+{
+  "name": "watermarks-kit",
+  "version": "0.1.0",
+  "description": "Check files Claude writes for AI/C2PA provenance marks (report only), plus skills to strip metadata and clean prose using guillaumemeyer/watermarks-remover.",
+  "license": "MIT"
+}

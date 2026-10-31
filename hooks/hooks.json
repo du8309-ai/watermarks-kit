@@ -1,0 +1,17 @@
+{
+  "description": "After Claude writes or edits a file, report AI/C2PA provenance marks in it. Check mode only: the file is never modified.",
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit|MultiEdit|NotebookEdit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"${CLAUDE_PLUGIN_ROOT}/hooks/run_check.js\"",
+            "timeout": 120
+          }
+        ]
+      }
+    ]
+  }
+}
